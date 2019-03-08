@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+ <html lang="en"  class="no-js"> 
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>COURSE</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="lib/html5-boilerplate/dist/css/normalize.css">
+  <link rel="stylesheet" href="lib/html5-boilerplate/dist/css/main.css">
+  <link rel="stylesheet" href="app.css">
+  <script src="lib/html5-boilerplate/dist/js/vendor/modernizr-2.8.3.min.js"></script>
+</head>
+<body ng-app="myApp">
+
+  <div ui-view></div>
+
+  <script src="lib/angular/angular.js"></script>
+  <script src="lib/angular-route/angular-route.js"></script>
+  <script src="app.js"></script>
+  <script src="core/version/version.js"></script>
+  <script src="core/version/version-directive.js"></script>
+  <script src="core/version/interpolate-filter.js"></script>
+  <script src="//unpkg.com/@uirouter/angularjs/release/angular-ui-router.min.js"></script>
+  
+  <!-- modules -->
+  <script src="signin/signin.state.js"></script>
+  <script src="signup/signup.state.js"></script>
+  <script src="course/course.state.js"></script>
+  <script src="insert-course/insert-course.state.js"></script>
+   <!-- Controllers -->
+   <script src="signin/signin.controller.js"></script>
+   <script src="signup/signup.controller.js"></script>
+   <script src="course/course.controller.js"></script>
+   <script src="insert-course/insert-course.controller.js"></script>
+
+   <!-- services -->
+   <script src="service/signin.service.js"></script>
+   <script src="service/signup.service.js"></script>
+   <script src="service/course.service.js"></script>
+   <script src="service/insert-course.service.js"></script>
+
+</body>
+</html>
